@@ -622,6 +622,13 @@ footer{
         width: 80%; /* Proje kutularının genişliği */
         max-width: 100%; /* Maksimum genişlik */
     }
+    .middle-footer .footer-menu {
+        flex-direction: column; /* Dikey düzenleme */
+        align-items: center; /* Ortaya hizalama */
+    }
+    .footer_menu_list {
+        margin-bottom: 10px; /* Alt boşluk ekleme */
+    }
 }
 
 
@@ -707,14 +714,12 @@ footer{
     .input-field {
         width: 100%;
     }
-}
 
-
-.social_icons .icon a {
-    color: #000; /* Siyah renk */
-    text-decoration: none; /* Altçizgiyi kaldırır */
-}
-
-.social_icons .icon a:hover {
-    color: #000; /* Tıklanmadan hemen sonra da siyah renk */
+    .bottom-footer {
+        text-align: center; /* Metni ortaya hizalama */
+        padding: 10px 0; /* Daha küçük kenar boşlukları */
+    }
+    .footer_menu_list a {
+        margin-inline: 10px; /* Daha küçük yatay boşluklar */
+    }
 }
