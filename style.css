@@ -626,7 +626,7 @@ footer{
 
 
 
-    /* ----- MEDIA QUERY == 617px / RESPONSIVE ----- */
+/* ----- MEDIA QUERY == 617px / RESPONSIVE ----- */
 @media only screen and (max-width: 617px) {
     .nav-menu-btn {
         position: fixed;
@@ -673,7 +673,18 @@ footer{
     }
 }
 
+/* ----- MEDIA QUERY == 365px / RESPONSIVE ----- */
+@media only screen and (max-width: 365px) {
+    .nav-menu-btn {
+        right: 10px; /* Sağ üst köşede butonu sabitle */
+        font-size: 14px;
+    }
 
+    .nav-menu {
+        top: 60px;
+        min-height: 300px;
+    }
+}
 
 /* ----- MEDIA QUERY == 600px / RESPONSIVE ----- */
 @media only screen and (max-width: 600px) {
@@ -697,22 +708,6 @@ footer{
         width: 100%;
     }
 }
-
-/* ----- MEDIA QUERY == 365px / RESPONSIVE ----- */
-@media only screen and (max-width: 365px) {
-    .nav-menu-btn {
-        right: 10px; /* Sağ üst köşede butonu sabitle */
-        font-size: 14px;
-    }
-
-    .nav-menu {
-        top: 60px;
-        min-height: 300px;
-    }
-}
-
-
-
 
 
 .social_icons .icon a {
